@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+header {
+    background: #0000ff;
+    color: white;
+}
+nav {
+    background: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+main {
+    min-height: 300px;
+    padding: 40px;
+}
+footer {
+    background: #222;
+    color: white;
+}
