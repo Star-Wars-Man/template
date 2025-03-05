@@ -1,44 +1,30 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-/* Make the page a grid with three rows: header, content (grows), and footer */
-html, body {
-    height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto; /* Header, Main (grows), Footer */
-}
-
-header {
-    background: #4CAF50;
-    color: white;
+header, nav, main, footer {
     padding: 20px;
     text-align: center;
 }
-
+header {
+    background: #4CAF50;
+    color: white;
+}
 nav {
     background: #333;
-    text-align: center;
-    padding: 10px;
 }
-
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     display: inline-block;
 }
-
 main {
+    min-height: 300px;
     padding: 40px;
-    text-align: center;
 }
-
 footer {
     background: #222;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
